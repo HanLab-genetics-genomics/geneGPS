@@ -1,0 +1,11 @@
+^\.git$
+^\.Rproj\.user$
+^\.Rhistory$
+^\.Rprofile$
+^.*\.Rproj$
+^renv$
+^renv\.lock$
+^README\.Rmd$
+^out$
+^man/figures/README-pressure-1\.png$
+^README\.html$
