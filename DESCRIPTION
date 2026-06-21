@@ -1,0 +1,37 @@
+Package: geneGPS
+Type: Package
+Title: Gene-Level Pleiotropy Scores (GPS) from GWAS Summary Statistics
+Version: 0.1.0
+Authors@R: 
+    person(given = "Mengyao",
+           family = "Liu",
+           role = c("cre", "aut"),
+           email = "liumengyao163@gmail.com")
+Maintainer: Mengyao Liu <liumengyao163@gmail.com>
+URL: https://github.com/Lemenyeux/geneGPS/
+Description: Provides a workflow for deriving gene-level pleiotropy scores
+    from GWAS summary statistics. The workflow derives two scores to capture 
+    different facets of gene pleiotropy, including (1) the number of trait 
+    dimensions associated with a gene (referred to as the "number" score, 
+    GPS-N), and (2) the overall magnitude of associations across trait 
+    dimensions (referred to as "magnitude" score, GPS-M).
+License: GPL-3
+Encoding: UTF-8
+Depends: 
+    R (>= 4.1)
+Imports:
+    data.table,
+    HOPS,
+    parallel,
+    utils
+Remotes:
+    rondolab/HOPS
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+RoxygenNote: 7.3.3
+LazyData: FALSE
+Config/testthat/edition: 3
+SystemRequirements: MAGMA, PLINK
+BugReports: https://github.com/Lemenyeux/geneGPS/issues
