@@ -1,0 +1,11 @@
+utils::globalVariables(c(
+  "SNP",
+  "V1",
+  "chr",
+  "end",
+  "gene",
+  "geneid",
+  "snp",
+  "start",
+  "strand"
+))
