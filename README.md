@@ -38,7 +38,7 @@ Install the development version from GitHub:
 install.packages("remotes")
 
 remotes::install_github(
-  "Lemenyeux/geneGPS",
+  "HanLab-genetics-genomics/geneGPS",
   dependencies = TRUE
 )
 ```
