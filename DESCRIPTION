@@ -8,7 +8,7 @@ Authors@R:
            role = c("cre", "aut"),
            email = "liumengyao163@gmail.com")
 Maintainer: Mengyao Liu <liumengyao163@gmail.com>
-URL: https://github.com/Lemenyeux/geneGPS/
+URL: https://github.com/HanLab-genetics-genomics/geneGPS/
 Description: Provides a workflow for deriving gene-level pleiotropy scores
     from GWAS summary statistics. The workflow derives two scores to capture 
     different facets of gene pleiotropy, including (1) the number of trait 
