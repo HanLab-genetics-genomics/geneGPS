@@ -34,4 +34,4 @@ RoxygenNote: 7.3.3
 LazyData: FALSE
 Config/testthat/edition: 3
 SystemRequirements: MAGMA, PLINK
-BugReports: https://github.com/Lemenyeux/geneGPS/issues
+BugReports: https://github.com/HanLab-genetics-genomics/geneGPS/issues
