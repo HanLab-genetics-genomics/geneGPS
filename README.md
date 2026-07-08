@@ -202,13 +202,9 @@ available CPU resources, and disk performance.
 
 ## Citation
 
-Please cite the geneGPS repository release used in your analysis and the
-HOPS method:
-
-Jordan DM, Verbanck M, Do R. HOPS: a quantitative score reveals
-pervasive horizontal pleiotropy in human genetic variation driven by
-extreme polygenicity of human traits and diseases. *Genome Biology*.
-2019.
+This work is currently unpublished. Citation information will be updated 
+once the manuscript is posted on bioRxiv or published in a peer-reviewed 
+journal.
 
 ## License
 
