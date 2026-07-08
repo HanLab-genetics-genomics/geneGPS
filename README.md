@@ -57,13 +57,13 @@ library(geneGPS)
    MAGMA is an external command-line tool and is not bundled with geneGPS.
 Please download MAGMA from the official MAGMA website: https://cncr.nl/research/magma/.
 After downloading MAGMA, provide the path to the executable when running
-`gene_annotation()`
+`gene_annotation()`.
 
 2.  **PLINK**, used for gene-specific LD clumping.
    PLINK is an external command-line tool and is not bundled with geneGPS.
 please download PLINK 1.9 from the official PLINK website: https://www.cog-genomics.org/plink/.
 After downloading PLINK, provide the path to the executable when running
-`GPS_clump()`
+`GPS_clump()`.
 
 3.  A PLINK binary reference panel containing matched .bed, .bim, and .fam files is also
    required for LD clumping. For European-ancestry analyses, a commonly used 1000 Genomes
@@ -72,8 +72,8 @@ https://vu.data.surfsara.nl/index.php/s/VZNByNwpD8qqINe.
 When providing the reference panel to GPS_clump(),
 use the shared file prefix without the .bed, .bim, or .fam extension.
 
-5. The bundled gene-location reference and SNP-coordinate lookup table use
-GRCh37/hg19 coordinates. The PLINK reference panel, gene-location file,
+4. The bundled gene-location reference and SNP-coordinate lookup table use
+**GRCh37/hg19** coordinates. The PLINK reference panel, gene-location file,
 and input SNP identifiers should be compatible with this coordinate
 system.
 
