@@ -55,20 +55,19 @@ library(geneGPS)
 
 1.  **MAGMA**, used to map variants to genes.
    MAGMA is an external command-line tool and is not bundled with geneGPS.
-Please download MAGMA from the official MAGMA website: https://cncr.nl/research/magma/.
+Please download MAGMA from the official [MAGMA](https://cncr.nl/research/magma/) website.
 After downloading MAGMA, provide the path to the executable when running
 `gene_annotation()`.
 
 2.  **PLINK**, used for gene-specific LD clumping.
    PLINK is an external command-line tool and is not bundled with geneGPS.
-please download PLINK 1.9 from the official PLINK website: https://www.cog-genomics.org/plink/.
+please download PLINK 1.9 from the official [PLINK](https://www.cog-genomics.org/plink/) website.
 After downloading PLINK, provide the path to the executable when running
 `GPS_clump()`.
 
 3.  A PLINK binary reference panel containing matched .bed, .bim, and .fam files is also
    required for LD clumping. For European-ancestry analyses, a commonly used 1000 Genomes
-Phase 3 European reference panel can be downloaded from:
-https://vu.data.surfsara.nl/index.php/s/VZNByNwpD8qqINe.
+Phase 3 European reference panel can be downloaded from [here](https://vu.data.surfsara.nl/index.php/s/VZNByNwpD8qqINe).
 When providing the reference panel to GPS_clump(),
 use the shared file prefix without the .bed, .bim, or .fam extension.
 
